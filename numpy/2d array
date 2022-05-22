@@ -1,0 +1,5 @@
+Write a NumPy program to create a 2-D array whose diagonal equals [4, 5, 6, 8] and 0's elsewhere.
+
+import numpy as np
+x =  np.diagflat([4, 5, 6, 8])
+print(x)
