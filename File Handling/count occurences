@@ -1,3 +1,4 @@
+Find the total occurrences of a specific word from a text file:
 def program6():
     cnt = 0
     word_search = input("Enter the words to search:")
