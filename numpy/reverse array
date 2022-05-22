@@ -1,0 +1,24 @@
+You are given a space separated list of numbers.
+Your task is to print a reversed Numpy array with the element type float.
+Input Format
+A single line of input containing space separated numbers.
+Output Format
+Print the reverse NumPy array with type float.
+Sample Input
+1 2 3 4 -8 -10
+Sample Output
+[-10. -8. 4. 3. 2. 1.]
+import numpy as np
+ini_array = np.array([1, 2, 3, 6, 4, 5])
+  
+# printing initial ini_array
+print("initial array", str(ini_array))
+  
+# printing type of ini_array
+print("type of ini_array", type(ini_array))
+  
+# using shortcut method to reverse
+res = ini_array[::-1]
+  
+# printing result
+print("final array", str(res))
